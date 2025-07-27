@@ -1,9 +1,12 @@
 package main
 
-import "UnionEntrace/caller"
+import (
+	"UnionEntrace/caller"
+	"UnionEntrace/router"
+)
 
 func main() {
-	r := setupRouter()
+	r := router.SetupRouter()
 	caller.Init()
 
 	r.Run(":28080")
