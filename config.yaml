@@ -1,0 +1,6 @@
+nacos:
+  serverIp: "192.168.31.234"
+  serverPort: 8848
+  serviceName: "UnionEntrance"
+  clusterName: "default"
+  port: 28080
